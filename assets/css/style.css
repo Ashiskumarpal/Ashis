@@ -1889,10 +1889,10 @@ body,
 #slider,
 .wrap,
 .slide-content {
-  margin: 0;
-  padding: 0;
+  margin: 1;
+  padding: 1;
   font-family: Arial, Helvetica, sans-serif;
-  width: 80%;
+  width: 90%;
   height: 40vh;
   overflow-x: hidden;
 }
