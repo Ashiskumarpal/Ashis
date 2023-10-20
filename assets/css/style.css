@@ -1880,3 +1880,16 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 }
+
+.image-slider {
+  width: 100%;
+  max-width: 800px; /* Adjust the width as needed */
+  overflow: hidden;
+  margin: 0 auto; /* Center the slider horizontally */
+}
+
+.image-slider img {
+  width: 100%;
+  height: auto;
+  display: none; /* Hide all images initially */
+}
