@@ -167,33 +167,3 @@ for (let i = 0; i < navigationLinks.length; i++) {
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  * ======================================================================== */
-
-document.addEventListener("DOMContentLoaded", function () {
-    const slider = document.querySelector(".slider");
-    const prevButton = document.getElementById("prev");
-    const nextButton = document.getElementById("next");
-    let currentIndex = 0;
-
-    function showSlide(index) {
-        const slides = slider.querySelectorAll("img");
-        slides.forEach((slide) => {
-            slide.style.display = "none";
-        });
-        slides[index].style.display = "block";
-    }
-
-    function prevSlide() {
-        currentIndex = (currentIndex - 1 + slider.childElementCount) % slider.childElementCount;
-        showSlide(currentIndex);
-    }
-
-    function nextSlide() {
-        currentIndex = (currentIndex + 1) % slider.childElementCount;
-        showSlide(currentIndex);
-    }
-
-    prevButton.addEventListener("click", prevSlide);
-    nextButton.addEventListener("click", nextSlide);
-
-    showSlide(currentIndex);
-});
