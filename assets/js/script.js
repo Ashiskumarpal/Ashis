@@ -157,3 +157,25 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
+
+
+// Add the image slider code below your existing code
+let currentSlide = 0;
+const slides = document.querySelectorAll('.image-slider img');
+
+function showSlide(n) {
+  slides[currentSlide].style.display = 'none';
+  currentSlide = (n + slides.length) % slides.length;
+  slides[currentSlide].style.display = 'block';
+}
+
+function nextSlide() {
+  showSlide(currentSlide + 1);
+}
+
+function prevSlide() {
+  showSlide(currentSlide - 1);
+}
+
+// Automatically advance to the next slide every 3 seconds
+setInterval(nextSlide, 3000);
