@@ -1881,15 +1881,12 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 }
 
-.image-slider {
-  width: 100%;
-  max-width: 800px; /* Adjust the width as needed */
-  overflow: hidden;
-  margin: 0 auto; /* Center the slider horizontally */
-}
+/* Carusel */
 
-.image-slider img {
-  width: 100%;
-  height: auto;
-  display: none; /* Hide all images initially */
+.carousel {
+    border-radius: 3px 3px 3px 3px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
