@@ -1908,10 +1908,10 @@ body,
 }
 
 .slide1 {
-  background-image: url("assets/images/Slide_1.png");
+  background-image: url("./assets/images/Slide_1.png");
 }
 .slide2 {
-  background-image: url("assets/images/Slide_1.png");
+  background-image: url("./assets/images/Slide_1.png");
 }
 .slide3 {
   background-image: url("https://sdslab.io/images/slider7001400/SDS%20Website%20Slides%20Compact-9.png");
