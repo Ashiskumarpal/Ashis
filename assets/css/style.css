@@ -1914,7 +1914,16 @@ body,
   background-image: url("https://raw.githubusercontent.com/Ashiskumarpal/AshisKumarpal.github.io/master/assets/images/Slide_2.png");
 }
 .slide3 {
-  background-image: url("https://sdslab.io/images/slider7001400/SDS%20Website%20Slides%20Compact-9.png");
+  background-image: url("https://raw.githubusercontent.com/Ashiskumarpal/AshisKumarpal.github.io/master/assets/images/Slide3.jpg");
+}
+.slide4 {
+  background-image: url("https://raw.githubusercontent.com/Ashiskumarpal/AshisKumarpal.github.io/master/assets/images/Slide4.jpg");
+}
+.slide5 {
+  background-image: url("https://raw.githubusercontent.com/Ashiskumarpal/AshisKumarpal.github.io/master/assets/images/Slide5.jpg");
+}
+.slide6 {
+  background-image: url("https://raw.githubusercontent.com/Ashiskumarpal/AshisKumarpal.github.io/master/assets/images/Slide6.jpg");
 }
 
 .slide-content {
