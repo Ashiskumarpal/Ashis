@@ -1986,6 +1986,6 @@ body,
 .image-gallery header h3 {
   text-align: center;
   margin-bottom: 20px;
-  color: #333; /* Customize the color */
-  font-size: 24px; /* Customize the font size */
+  color: white; /* Changed to white for better visibility on dark backgrounds */
+  font-size: 24px; /* Customize the font size according to your preference */
 }
