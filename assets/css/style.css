@@ -1963,3 +1963,23 @@ body,
   margin-right: 20px; /* Adjust this value to control the horizontal position */
 }
 
+.image-gallery .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.image-gallery img {
+  flex: 1;
+  max-width: 22%; /* Adjusts the size of the images so 4 can fit in a row */
+  margin: 5px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: Adds a shadow for aesthetics */
+}
+
+@media (max-width: 600px) {
+  .image-gallery img {
+    max-width: 48%; /* Adjusts to 2 images per row on smaller screens */
+  }
+}
+
