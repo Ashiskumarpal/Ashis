@@ -1931,10 +1931,6 @@ body,
 .slide8 {
   background-image: url("https://raw.githubusercontent.com/Ashiskumarpal/AshisKumarpal.github.io/master/assets/images/Slide8.jpg");
 }
-/* .slide9 {
-  background-image: url("https://raw.githubusercontent.com/Ashiskumarpal/AshisKumarpal.github.io/master/assets/images/Slide9.jpg");
-} */
-
 .slide-content {
   display: flex;
   flex-direction: column;
